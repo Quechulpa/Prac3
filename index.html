@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            background-color: #001f3f; /* Navy blue background for the body */
+        }
+        .sidebar {
+            height: 100vh; /* Make sidebar full height */
+            width: 200px;
+            background-color: #0074D9; /* Light blue background for sidebar */
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+            color: white; /* White text color for content */
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 10px 0;
+        }
+        .download-links {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #001f3f; /* Navy blue background for footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: white; /* White text color for footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2 style="color: white;">Menu</h2>
+        <ul class="menu">
+            <li><a href="#" style="color: white;">Principal</a></li>
+            <li><a href="Creadores.html" style="color: white;">Creadores</a></li>
+            <li><a href="Contactanos.html" style="color: white;">Contactanos</a></li>
+        </ul> <br> <br> <br> <br> <br>
+        <div class="download-links">
+            <h3 style="color: white;">Descargas</h3>
+            <a href="v1.mp4" download style="color: white;">Descargar Video</a><br> <br>
+            <a href="m1.mp3" download style="color: white;">Descargar MP3</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1 style="text-align: center;">Bienvenido a nuestro Blog, Somos</h1>
+        <h1 style="text-align: center;"> El Equipo 3</h1>
+        <p align="center">Aquí encontrarás un poco sobre nosotros como equipo.</p>
+        <video controls width="320" height="240" style="display: block; margin: 0 auto;">
+            <source src="v1.mp4" type="video/mp4">
+        </video>
+        <br> <hr>
+        <audio controls style="display: block; margin: 0 auto;">
+            <source src="m1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <footer>
+        <p>TecNM Campus Orizaba 2025</p>
+    </footer>
+</body>
+</html>
