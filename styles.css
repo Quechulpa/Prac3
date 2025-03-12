@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    background-color: #aec0d2; /* Azul */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+max-width: 700px;
+margin: 40px auto;
+background: rgb(243, 160, 98) ;
+padding: 20px;
+box-shadow: 0 0 10px; rgba(0,0,0,0.1);
+
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+/* Alineaciones */
+h1{
+    text-align: center;
+
+} 
+
+h5{
+    text-align: justify;
+}
+
+h2, h3 {
+    text-align: left;
+}
+
+h4 {
+    display: inline-block;
+}
+
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: auto;
+}
+
+/* Audio */
+audio {
+    margin-top: 15px;
+}
